@@ -1,6 +1,6 @@
 # What is this
 
-This is a TablePlus Plugin, install OpenURL you will have a menu `Go to URL` in context menu. The menu is using for open an url/email from cell data.
+This is a TablePlus Plugin that allows you to deserialize serialized PHP stored in your tables. Once deserialized, the content is converted to a JSON string and copied to your clipboard so you can paste it wherever you need it - simply right-click on the cell containing serialized PHP.
 
 # Requirements
 
@@ -10,7 +10,7 @@ TablePlus v2.9.1 and above.
 
 ### From release
 
-Download [release](https://github.com/simonhamp/TablePlus-PHPSerializer/releases), unzip and double click on file plugin to install.
+Download the latest [release](https://github.com/simonhamp/TablePlus-PHPSerializer/releases), unzip and double click on the plugin file (`PHPSerializer.tableplusplugin`) to install.
 
 ### Build from source
 
@@ -26,9 +26,10 @@ open .
 
 1. Open a connection.
 2. Open a table.
-3. Click on a cell.
-4. Click on `Go to URL` in menu.
+3. Right-click on a cell.
+4. Click `PHP Deserialize` in the menu.
+5. Paste the JSON result into the SQL Editor/your favorite text editor/IDE.
 
 # License
 
-OpenURL is released under the MIT license. See [LICENSE](https://github.com/TablePlus/DummiesData/blob/master/LICENSE) for details.
+PHP Serializer is released under the MIT license. See [LICENSE](https://github.com/simonhamp/TablePlus-PHPDeserializer/blob/master/LICENSE) for details.
