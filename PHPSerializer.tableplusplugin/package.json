@@ -1,0 +1,25 @@
+{
+  "name": "com.tinyapp.TablePlus.PHPSerializer.tableplusplugin",
+  "version": "1.0.0",
+  "description": "Works with serialized PHP code to ease editing and re-serializing",
+  "main": "main.js",
+  "dependencies": {
+    "php-serialize": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "PHP",
+    "serialization"
+  ],
+  "author": "http://simonhamp.me",
+  "license": "MIT"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "PHP Serializer",
+    "identifier": "com.tinyapp.TablePlus.PHPSerializer",
+    "version": "1.0",
+    "detail": "Works with serialized PHP code to ease editing and re-serializing",
+    "author": "Simon Hamp",
+    "authorEmail": "simon.hamp@me.com",
+    "website": "http://simonhamp.me/",
+    "scripts": [
+        {
+            "location": "data",
+            "type": "separator"
+        },
+        {
+            "location": "data",
+            "type": "action",
+            "script": "dist/PHPSerializer.js",
+            "name": "PHP Deserialize"
+        }
+    ]
+}
