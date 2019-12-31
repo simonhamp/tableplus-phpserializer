@@ -1,6 +1,6 @@
 ## What is this?
 
-This is a TablePlus Plugin that allows you to deserialize serialized PHP stored in your tables. Once deserialized, the content is converted to a JSON string and copied to your clipboard so you can paste it wherever you need it - simply right-click on the cell containing serialized PHP.
+This is a [TablePlus](https://tableplus.com/) Plugin that allows you to deserialize serialized PHP stored in your tables. Once deserialized, the content is converted to a JSON string and copied to your clipboard so you can paste it wherever you need it - simply right-click on the cell containing serialized PHP.
 
 ## Requirements
 
