@@ -22,7 +22,7 @@ npm run build
 open .
 ```
 
-# How to use
+## Usage
 
 1. Open a connection.
 2. Open a table.
@@ -30,6 +30,6 @@ open .
 4. Click `PHP Deserialize` in the menu.
 5. Paste the JSON result into your editor of choice.
 
-# License
+## License
 
 PHP Serializer is released under the MIT license. See [LICENSE](https://github.com/simonhamp/TablePlus-PHPSerializer/blob/master/LICENSE) for details.
