@@ -1,16 +1,16 @@
-# What is this
+## What is this?
 
 This is a TablePlus Plugin that allows you to deserialize serialized PHP stored in your tables. Once deserialized, the content is converted to a JSON string and copied to your clipboard so you can paste it wherever you need it - simply right-click on the cell containing serialized PHP.
 
-# Requirements
+## Requirements
 
 TablePlus v2.9.1 and above.
 
-# Install
+## Installation
 
-### From release
+### Latest release
 
-Download the latest [release](https://github.com/simonhamp/TablePlus-PHPSerializer/releases), unzip and double click on the plugin file (`PHPSerializer.tableplusplugin`) to install.
+Download the latest [release](https://github.com/simonhamp/TablePlus-PHPSerializer/releases), unzip and double click on the plugin file (`PHPSerializer.tableplusplugin`) to install. Follow the TablePlus prompts to install the plugin. It only takes a few seconds.
 
 ### Build from source
 
@@ -28,8 +28,8 @@ open .
 2. Open a table.
 3. Right-click on a cell.
 4. Click `PHP Deserialize` in the menu.
-5. Paste the JSON result into the SQL Editor/your favorite text editor/IDE.
+5. Paste the JSON result into your editor of choice.
 
 # License
 
-PHP Serializer is released under the MIT license. See [LICENSE](https://github.com/simonhamp/TablePlus-PHPDeserializer/blob/master/LICENSE) for details.
+PHP Serializer is released under the MIT license. See [LICENSE](https://github.com/simonhamp/TablePlus-PHPSerializer/blob/master/LICENSE) for details.
